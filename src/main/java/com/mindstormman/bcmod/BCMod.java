@@ -1,5 +1,6 @@
 package com.mindstormman.bcmod;
 
+import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.item.ModCreativeModTabs;
 import com.mindstormman.bcmod.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -28,9 +29,14 @@ public class BCMod
     public BCMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModItems.register(modEventBus);
+
         ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
+
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
