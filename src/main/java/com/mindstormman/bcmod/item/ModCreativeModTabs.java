@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.GOOSE_EGG.get());
                         pOutput.accept(ModItems.GOOSE_FEATHER.get());
                         pOutput.accept(ModBlocks.CEDAR_LOG.get());
+                        pOutput.accept(ModBlocks.CEDAR_PLANKS.get());
 
                     })
                     .build());

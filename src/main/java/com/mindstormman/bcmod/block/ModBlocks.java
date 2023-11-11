@@ -21,6 +21,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CEDAR_LOG = registerBlock("cedar_log",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)));
 
+    public static final RegistryObject<Block> CEDAR_PLANKS = registerBlock("cedar_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
