@@ -31,6 +31,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.RHODINITE_ORE.get());
                         pOutput.accept(ModBlocks.RHODINITE_BLOCK.get());
 
+                        //Food
+                        pOutput.accept(ModItems.SASKATOON_BERRY.get());
+                        pOutput.accept(ModItems.SNOWBERRY.get());
+
                     })
                     .build());
 

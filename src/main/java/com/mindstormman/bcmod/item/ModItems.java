@@ -21,6 +21,11 @@ public class ModItems {
     public static final RegistryObject<Item> RHODINITE = ITEMS.register("rhodinite",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SASKATOON_BERRY = ITEMS.register("saskatoon_berry",
+            () -> new Item(new Item.Properties().food(ModFoods.SASKATOON_BERRY)));
+    public static final RegistryObject<Item> SNOWBERRY = ITEMS.register("snowberry",
+            () -> new Item(new Item.Properties().food(ModFoods.SNOWBERRY)));
+
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
 
