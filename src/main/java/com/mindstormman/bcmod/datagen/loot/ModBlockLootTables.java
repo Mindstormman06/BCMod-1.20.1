@@ -1,5 +1,6 @@
 package com.mindstormman.bcmod.datagen.loot;
 
+import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
@@ -20,25 +21,33 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.RHODONITE_BLOCK.get());
-        this.dropSelf(ModBlocks.CEDAR_LOG.get());
-        this.dropSelf(ModBlocks.CEDAR_PLANKS.get());
+
+
+
+        //Rhodonite
 
         this.add(ModBlocks.RHODONITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.RHODONITE_ORE.get(), ModItems.RHODONITE.get()));
+        this.dropSelf(ModBlocks.RHODONITE_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_RHODONITE_BLOCK.get());
 
+        //Cedar
+        this.dropSelf(CedarWood.CEDAR_LOG.get());
+        this.dropSelf(CedarWood.CEDAR_WOOD.get());
+        this.dropSelf(CedarWood.STRIPPED_CEDAR_LOG.get());
+        this.dropSelf(CedarWood.STRIPPED_CEDAR_WOOD.get());
+        this.dropSelf(CedarWood.CEDAR_PLANKS.get());
+        this.dropSelf(CedarWood.CEDAR_STAIRS.get());
+        this.dropSelf(CedarWood.CEDAR_BUTTON.get());
+        this.dropSelf(CedarWood.CEDAR_PRESSURE_PLATE.get());
+        this.dropSelf(CedarWood.CEDAR_FENCE.get());
+        this.dropSelf(CedarWood.CEDAR_FENCE_GATE.get());
+        this.dropSelf(CedarWood.CEDAR_TRAPDOOR.get());
 
-        this.dropSelf(ModBlocks.CEDAR_STAIRS.get());
-        this.dropSelf(ModBlocks.CEDAR_BUTTON.get());
-        this.dropSelf(ModBlocks.CEDAR_PRESSURE_PLATE.get());
-        this.dropSelf(ModBlocks.CEDAR_FENCE.get());
-        this.dropSelf(ModBlocks.CEDAR_FENCE_GATE.get());
-        this.dropSelf(ModBlocks.CEDAR_TRAPDOOR.get());
-
-        this.add(ModBlocks.CEDAR_SLAB.get(),
-                block -> createSlabItemTable(ModBlocks.CEDAR_SLAB.get()));
-        this.add(ModBlocks.CEDAR_DOOR.get(),
-                block -> createDoorTable(ModBlocks.CEDAR_DOOR.get()));
+        this.add(CedarWood.CEDAR_SLAB.get(),
+                block -> createSlabItemTable(CedarWood.CEDAR_SLAB.get()));
+        this.add(CedarWood.CEDAR_DOOR.get(),
+                block -> createDoorTable(CedarWood.CEDAR_DOOR.get()));
 
     }
 

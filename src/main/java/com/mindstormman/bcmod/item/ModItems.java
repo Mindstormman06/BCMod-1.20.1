@@ -33,6 +33,9 @@ public class ModItems {
     public static final RegistryObject<Item> RHODONITE_HEART = ITEMS.register("rhodonite_heart",
             () -> new RhodoniteHeartItem(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_RHODONITE = ITEMS.register("raw_rhodonite",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

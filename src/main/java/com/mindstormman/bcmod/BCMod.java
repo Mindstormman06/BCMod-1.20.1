@@ -1,7 +1,8 @@
 package com.mindstormman.bcmod;
 
+import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
-import com.mindstormman.bcmod.item.ModCreativeModTabs;
+import com.mindstormman.bcmod.item.ModCreativeModeTabs;
 import com.mindstormman.bcmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,10 +31,11 @@ public class BCMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModCreativeModTabs.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        CedarWood.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

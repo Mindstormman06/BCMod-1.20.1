@@ -1,11 +1,13 @@
 package com.mindstormman.bcmod.datagen;
 
 import com.mindstormman.bcmod.BCMod;
+import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -26,40 +28,47 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 );
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RHODONITE_ORE.get())
-                .add(ModBlocks.RHODONITE_BLOCK.get());
+                .add(ModBlocks.RHODONITE_ORE.get(),
+                        ModBlocks.RHODONITE_BLOCK.get(),
+                        ModBlocks.RAW_RHODONITE_BLOCK.get()
+
+                );
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.RHODONITE_BLOCK.get(),
-                        ModBlocks.RHODONITE_ORE.get()
+                        ModBlocks.RHODONITE_ORE.get(),
+                        ModBlocks.RAW_RHODONITE_BLOCK.get()
 
                 );
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
-                .add(ModBlocks.CEDAR_LOG.get(),
-                        ModBlocks.CEDAR_PLANKS.get()
-
-                );
+                .add((Block) CedarWood.BLOCKS.getEntries());
 
         this.tag(BlockTags.LOGS)
-                .add(ModBlocks.CEDAR_LOG.get()
+                .add(CedarWood.CEDAR_LOG.get()
 
                 );
 
         this.tag(BlockTags.PLANKS)
-                .add(ModBlocks.CEDAR_PLANKS.get()
+                .add(CedarWood.CEDAR_PLANKS.get()
 
                 );
 
         this.tag(BlockTags.LOGS)
-                .add(ModBlocks.CEDAR_LOG.get()
+                .add(CedarWood.CEDAR_LOG.get()
 
                 );
 
-        this.tag(BlockTags.FENCES)
-                .add(ModBlocks.CEDAR_FENCE.get());
+        this.tag(BlockTags.PLANKS)
+                .add(CedarWood.CEDAR_FENCE.get());
         this.tag(BlockTags.FENCE_GATES)
-                .add(ModBlocks.CEDAR_FENCE_GATE.get());
+                .add(CedarWood.CEDAR_FENCE_GATE.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(CedarWood.CEDAR_LOG.get())
+                .add(CedarWood.CEDAR_WOOD.get())
+                .add(CedarWood.STRIPPED_CEDAR_LOG.get())
+                .add(CedarWood.STRIPPED_CEDAR_WOOD.get());
 
 
 

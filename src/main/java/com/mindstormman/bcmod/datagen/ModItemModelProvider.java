@@ -1,6 +1,7 @@
 package com.mindstormman.bcmod.datagen;
 
 import com.mindstormman.bcmod.BCMod;
+import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.item.ModItems;
 import net.minecraft.data.PackOutput;
@@ -26,18 +27,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.RHODONITE);
         simpleItem(ModItems.RHODONITE_HEART);
+        simpleItem(ModItems.RAW_RHODONITE);
         simpleItem(ModItems.SASKATOON_BERRY);
         simpleItem(ModItems.SNOWBERRY);
 
-        simpleBlockItem(ModBlocks.CEDAR_DOOR);
-        fenceItem(ModBlocks.CEDAR_FENCE, ModBlocks.CEDAR_PLANKS);
-        buttonItem(ModBlocks.CEDAR_BUTTON, ModBlocks.CEDAR_PLANKS);
-        trapdoorItem(ModBlocks.CEDAR_TRAPDOOR);
+        simpleBlockItem(CedarWood.CEDAR_DOOR);
+        fenceItem(CedarWood.CEDAR_FENCE, CedarWood.CEDAR_PLANKS);
+        buttonItem(CedarWood.CEDAR_BUTTON, CedarWood.CEDAR_PLANKS);
+        trapdoorItem(CedarWood.CEDAR_TRAPDOOR);
 
-        evenSimplerBlockItem(ModBlocks.CEDAR_STAIRS);
-        evenSimplerBlockItem(ModBlocks.CEDAR_SLAB);
-        evenSimplerBlockItem(ModBlocks.CEDAR_PRESSURE_PLATE);
-        evenSimplerBlockItem(ModBlocks.CEDAR_FENCE_GATE);
+        evenSimplerBlockItem(CedarWood.CEDAR_STAIRS);
+        evenSimplerBlockItem(CedarWood.CEDAR_SLAB);
+        evenSimplerBlockItem(CedarWood.CEDAR_PRESSURE_PLATE);
+        evenSimplerBlockItem(CedarWood.CEDAR_FENCE_GATE);
 
     }
 

@@ -1,6 +1,7 @@
 package com.mindstormman.bcmod.datagen;
 
 import com.mindstormman.bcmod.BCMod;
+import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.item.ModItems;
 import net.minecraft.data.PackOutput;
@@ -29,12 +30,30 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pWriter, RHODONITE_SMELTABLES, RecipeCategory.MISC, ModItems.RHODONITE.get(), 0.25f, 100, "rhodonite");
         oreSmelting(pWriter, RHODONITE_SMELTABLES, RecipeCategory.MISC, ModItems.RHODONITE.get(), 0.25f, 200, "rhodonite");
 
+
+        //Rhodonite
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RHODONITE_BLOCK.get())
                 .pattern("RRR")
                 .pattern("RRR")
                 .pattern("RRR")
                 .define('R', ModItems.RHODONITE.get())
                 .unlockedBy(getHasName(ModItems.RHODONITE.get()), has(ModItems.RHODONITE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RAW_RHODONITE_BLOCK.get())
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .define('R', ModItems.RAW_RHODONITE.get())
+                .unlockedBy(getHasName(ModItems.RAW_RHODONITE.get()), has(ModItems.RAW_RHODONITE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RHODONITE_HEART.get())
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern(" R ")
+                .define('R', ModItems.RAW_RHODONITE.get())
+                .unlockedBy(getHasName(ModItems.RAW_RHODONITE.get()), has(ModItems.RAW_RHODONITE.get()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RHODONITE.get(), 9)
@@ -45,65 +64,65 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //Wood
 
         //Cedar
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.CEDAR_PLANKS.get(), 9)
-                .requires(ModBlocks.CEDAR_LOG.get())
-                .unlockedBy(getHasName(ModBlocks.CEDAR_LOG.get()), has(ModBlocks.CEDAR_LOG.get()))
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, CedarWood.CEDAR_PLANKS.get(), 9)
+                .requires(CedarWood.CEDAR_LOG.get())
+                .unlockedBy(getHasName(CedarWood.CEDAR_LOG.get()), has(CedarWood.CEDAR_LOG.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CEDAR_STAIRS.get(), 4)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CedarWood.CEDAR_STAIRS.get(), 4)
                 .pattern("#  ")
                 .pattern("## ")
                 .pattern("###")
-                .define('#', ModBlocks.CEDAR_PLANKS.get())
-                .unlockedBy(getHasName(ModBlocks.CEDAR_PLANKS.get()), has(ModBlocks.CEDAR_PLANKS.get()))
+                .define('#', CedarWood.CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(CedarWood.CEDAR_PLANKS.get()), has(CedarWood.CEDAR_PLANKS.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CEDAR_SLAB.get(), 3)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CedarWood.CEDAR_SLAB.get(), 3)
                 .pattern("###")
-                .define('#', ModBlocks.CEDAR_PLANKS.get())
-                .unlockedBy(getHasName(ModBlocks.CEDAR_PLANKS.get()), has(ModBlocks.CEDAR_PLANKS.get()))
+                .define('#', CedarWood.CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(CedarWood.CEDAR_PLANKS.get()), has(CedarWood.CEDAR_PLANKS.get()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.CEDAR_BUTTON.get())
-                .requires(ModBlocks.CEDAR_PLANKS.get())
-                .unlockedBy(getHasName(ModBlocks.CEDAR_PLANKS.get()), has(ModBlocks.CEDAR_PLANKS.get()))
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, CedarWood.CEDAR_BUTTON.get())
+                .requires(CedarWood.CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(CedarWood.CEDAR_PLANKS.get()), has(CedarWood.CEDAR_PLANKS.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CEDAR_PRESSURE_PLATE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CedarWood.CEDAR_PRESSURE_PLATE.get())
                 .pattern("## ")
-                .define('#', ModBlocks.CEDAR_PLANKS.get())
-                .unlockedBy(getHasName(ModBlocks.CEDAR_PLANKS.get()), has(ModBlocks.CEDAR_PLANKS.get()))
+                .define('#', CedarWood.CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(CedarWood.CEDAR_PLANKS.get()), has(CedarWood.CEDAR_PLANKS.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CEDAR_FENCE.get(), 3)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CedarWood.CEDAR_FENCE.get(), 3)
                 .pattern("#S#")
                 .pattern("#S#")
-                .define('#', ModBlocks.CEDAR_PLANKS.get())
+                .define('#', CedarWood.CEDAR_PLANKS.get())
                 .define('S', Items.STICK)
-                .unlockedBy(getHasName(ModBlocks.CEDAR_PLANKS.get()), has(ModBlocks.CEDAR_PLANKS.get()))
+                .unlockedBy(getHasName(CedarWood.CEDAR_PLANKS.get()), has(CedarWood.CEDAR_PLANKS.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CEDAR_FENCE_GATE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CedarWood.CEDAR_FENCE_GATE.get())
                 .pattern("S#S")
                 .pattern("S#S")
-                .define('#', ModBlocks.CEDAR_PLANKS.get())
+                .define('#', CedarWood.CEDAR_PLANKS.get())
                 .define('S', Items.STICK)
-                .unlockedBy(getHasName(ModBlocks.CEDAR_PLANKS.get()), has(ModBlocks.CEDAR_PLANKS.get()))
+                .unlockedBy(getHasName(CedarWood.CEDAR_PLANKS.get()), has(CedarWood.CEDAR_PLANKS.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CEDAR_DOOR.get(), 3)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CedarWood.CEDAR_DOOR.get(), 3)
                 .pattern("## ")
                 .pattern("## ")
                 .pattern("## ")
-                .define('#', ModBlocks.CEDAR_PLANKS.get())
-                .unlockedBy(getHasName(ModBlocks.CEDAR_PLANKS.get()), has(ModBlocks.CEDAR_PLANKS.get()))
+                .define('#', CedarWood.CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(CedarWood.CEDAR_PLANKS.get()), has(CedarWood.CEDAR_PLANKS.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CEDAR_TRAPDOOR.get(), 3)
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CedarWood.CEDAR_TRAPDOOR.get(), 3)
                 .pattern("###")
                 .pattern("###")
-                .define('#', ModBlocks.CEDAR_PLANKS.get())
-                .unlockedBy(getHasName(ModBlocks.CEDAR_PLANKS.get()), has(ModBlocks.CEDAR_PLANKS.get()))
+                .define('#', CedarWood.CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(CedarWood.CEDAR_PLANKS.get()), has(CedarWood.CEDAR_PLANKS.get()))
                 .save(pWriter);
 
     }

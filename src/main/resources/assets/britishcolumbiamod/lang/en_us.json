@@ -1,26 +1,33 @@
 {
   "item.britishcolumbiamod.goose_egg": "Goose Egg",
   "item.britishcolumbiamod.goose_feather": "Goose Feather",
-  "item.britishcolumbiamod.rhodonite": "Rhodonite",
   "item.britishcolumbiamod.metal_detector": "Metal Detector",
   "item.britishcolumbiamod.saskatoon_berry": "Saskatoon Berry",
   "item.britishcolumbiamod.snowberry": "Snowberry",
-  "item.britishcolumbiamod.rhodonite_heart": "§5§nRhodonite Heart",
 
 
-  "block.britishcolumbiamod.cedar_log": "Cedar Log",
-  "block.britishcolumbiamod.cedar_planks": "Cedar Planks",
-  "block.britishcolumbiamod.cedar_stairs": "Cedar Stairs",
-  "block.britishcolumbiamod.cedar_slab": "Cedar Slab",
-  "block.britishcolumbiamod.cedar_pressure_plate": "Cedar Pressure Plate",
-  "block.britishcolumbiamod.cedar_button": "Cedar Button",
-  "block.britishcolumbiamod.cedar_fence": "Cedar Fence",
-  "block.britishcolumbiamod.cedar_fence_gate": "Cedar Fence Gate",
-  "block.britishcolumbiamod.cedar_door": "Cedar Door",
-  "block.britishcolumbiamod.cedar_trapdoor": "Cedar Trapdoor",
+
+  "block.britishcolumbiamod.cedar_log": "Western Red Cedar Log",
+  "block.britishcolumbiamod.stripped_cedar_log": "Stripped Western Red Cedar Log",
+  "block.britishcolumbiamod.cedar_wood": "Western Red Cedar Wood",
+  "block.britishcolumbiamod.stripped_cedar_wood": "Stripped Western Red Cedar Wood",
+  "block.britishcolumbiamod.cedar_planks": "Western Red Cedar Planks",
+  "block.britishcolumbiamod.cedar_stairs": "Western Red Cedar Stairs",
+  "block.britishcolumbiamod.cedar_slab": "Western Red Cedar Slab",
+  "block.britishcolumbiamod.cedar_pressure_plate": "Western Red Cedar Pressure Plate",
+  "block.britishcolumbiamod.cedar_button": "Western Red Cedar Button",
+  "block.britishcolumbiamod.cedar_fence": "Western Red Cedar Fence",
+  "block.britishcolumbiamod.cedar_fence_gate": "Western Red Cedar Fence Gate",
+  "block.britishcolumbiamod.cedar_door": "Western Red Cedar Door",
+  "block.britishcolumbiamod.cedar_trapdoor": "Western Red Cedar Trapdoor",
+
+
   "block.britishcolumbiamod.rhodonite_ore": "Rhodonite Ore",
   "block.britishcolumbiamod.rhodonite_block": "Block Of Rhodonite",
-
+  "block.britishcolumbiamod.raw_rhodonite_block": "Block Of Raw Rhodonite",
+  "item.britishcolumbiamod.rhodonite": "Rhodonite",
+  "item.britishcolumbiamod.raw_rhodonite": "Raw Rhodonite",
+  "item.britishcolumbiamod.rhodonite_heart": "§5§nRhodonite Heart",
   "tooltip.britishcolumbiamod.rhodonite_heart.tooltip": "§dA special stone to give the one you love most §6(Dev Item)",
 
   "creativetab.bcmod_tab": "BCMod"

@@ -1,6 +1,7 @@
 package com.mindstormman.bcmod.item;
 
 import com.mindstormman.bcmod.BCMod;
+import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -10,7 +11,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
-public class ModCreativeModTabs {
+public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BCMod.MOD_ID);
 
@@ -32,16 +33,16 @@ public class ModCreativeModTabs {
                         //Wood
 
                         //Cedar Wood
-                        pOutput.accept(ModBlocks.CEDAR_LOG.get());
-                        pOutput.accept(ModBlocks.CEDAR_PLANKS.get());
-                        pOutput.accept(ModBlocks.CEDAR_SLAB.get());
-                        pOutput.accept(ModBlocks.CEDAR_STAIRS.get());
-                        pOutput.accept(ModBlocks.CEDAR_BUTTON.get());
-                        pOutput.accept(ModBlocks.CEDAR_PRESSURE_PLATE.get());
-                        pOutput.accept(ModBlocks.CEDAR_FENCE.get());
-                        pOutput.accept(ModBlocks.CEDAR_FENCE_GATE.get());
-                        pOutput.accept(ModBlocks.CEDAR_DOOR.get());
-                        pOutput.accept(ModBlocks.CEDAR_TRAPDOOR.get());
+                        pOutput.accept(CedarWood.CEDAR_LOG.get());
+                        pOutput.accept(CedarWood.CEDAR_PLANKS.get());
+                        pOutput.accept(CedarWood.CEDAR_SLAB.get());
+                        pOutput.accept(CedarWood.CEDAR_STAIRS.get());
+                        pOutput.accept(CedarWood.CEDAR_BUTTON.get());
+                        pOutput.accept(CedarWood.CEDAR_PRESSURE_PLATE.get());
+                        pOutput.accept(CedarWood.CEDAR_FENCE.get());
+                        pOutput.accept(CedarWood.CEDAR_FENCE_GATE.get());
+                        pOutput.accept(CedarWood.CEDAR_DOOR.get());
+                        pOutput.accept(CedarWood.CEDAR_TRAPDOOR.get());
 
 
                         //Food
