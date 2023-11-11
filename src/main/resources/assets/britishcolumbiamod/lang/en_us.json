@@ -1,9 +1,13 @@
 {
   "item.britishcolumbiamod.goose_egg": "Goose Egg",
   "item.britishcolumbiamod.goose_feather": "Goose Feather",
+  "item.britishcolumbiamod.rhodinite": "Rhodinite",
+  "item.britishcolumbiamod.metal_detector": "Metal Detector",
 
   "block.britishcolumbiamod.cedar_log": "Cedar Log",
   "block.britishcolumbiamod.cedar_planks": "Cedar Planks",
+  "block.britishcolumbiamod.rhodinite_ore": "Rhodinite Ore",
+  "block.britishcolumbiamod.rhodinite_block": "Block Of Rhodinite",
 
   "creativetab.bcmod_tab": "BCMod"
 }

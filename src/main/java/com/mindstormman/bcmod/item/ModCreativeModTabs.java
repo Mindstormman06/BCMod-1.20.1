@@ -19,10 +19,17 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOOSE_EGG.get()))
                     .title(Component.translatable("creativetab.bcmod_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        //Items
                         pOutput.accept(ModItems.GOOSE_EGG.get());
                         pOutput.accept(ModItems.GOOSE_FEATHER.get());
+                        pOutput.accept(ModItems.RHODINITE.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+
+                        //Blocks
                         pOutput.accept(ModBlocks.CEDAR_LOG.get());
                         pOutput.accept(ModBlocks.CEDAR_PLANKS.get());
+                        pOutput.accept(ModBlocks.RHODINITE_ORE.get());
+                        pOutput.accept(ModBlocks.RHODINITE_BLOCK.get());
 
                     })
                     .build());
