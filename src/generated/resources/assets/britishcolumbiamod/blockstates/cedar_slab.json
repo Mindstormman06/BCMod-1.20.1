@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "britishcolumbiamod:block/cedar_slab"
+    },
+    "type=double": {
+      "model": "britishcolumbiamod:block/cedar_planks"
+    },
+    "type=top": {
+      "model": "britishcolumbiamod:block/cedar_slab_top"
+    }
+  }
+}

@@ -26,6 +26,20 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.RHODONITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.RHODONITE_ORE.get(), ModItems.RHODONITE.get()));
+
+
+        this.dropSelf(ModBlocks.CEDAR_STAIRS.get());
+        this.dropSelf(ModBlocks.CEDAR_BUTTON.get());
+        this.dropSelf(ModBlocks.CEDAR_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.CEDAR_FENCE.get());
+        this.dropSelf(ModBlocks.CEDAR_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.CEDAR_TRAPDOOR.get());
+
+        this.add(ModBlocks.CEDAR_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CEDAR_SLAB.get()));
+        this.add(ModBlocks.CEDAR_DOOR.get(),
+                block -> createDoorTable(ModBlocks.CEDAR_DOOR.get()));
+
     }
 
     @Override

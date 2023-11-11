@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "britishcolumbiamod:cedar_planks"
+    }
+  ],
+  "result": {
+    "item": "britishcolumbiamod:cedar_button"
+  }
+}

@@ -27,10 +27,22 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RHODONITE_HEART.get());
 
                         //Blocks
-                        pOutput.accept(ModBlocks.CEDAR_LOG.get());
-                        pOutput.accept(ModBlocks.CEDAR_PLANKS.get());
                         pOutput.accept(ModBlocks.RHODONITE_BLOCK.get());
                         pOutput.accept(ModBlocks.RHODONITE_ORE.get());
+                        //Wood
+
+                        //Cedar Wood
+                        pOutput.accept(ModBlocks.CEDAR_LOG.get());
+                        pOutput.accept(ModBlocks.CEDAR_PLANKS.get());
+                        pOutput.accept(ModBlocks.CEDAR_SLAB.get());
+                        pOutput.accept(ModBlocks.CEDAR_STAIRS.get());
+                        pOutput.accept(ModBlocks.CEDAR_BUTTON.get());
+                        pOutput.accept(ModBlocks.CEDAR_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.CEDAR_FENCE.get());
+                        pOutput.accept(ModBlocks.CEDAR_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.CEDAR_DOOR.get());
+                        pOutput.accept(ModBlocks.CEDAR_TRAPDOOR.get());
+
 
                         //Food
                         pOutput.accept(ModItems.SASKATOON_BERRY.get());

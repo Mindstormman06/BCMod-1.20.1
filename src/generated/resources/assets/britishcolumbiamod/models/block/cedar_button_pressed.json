@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "britishcolumbiamod:block/cedar_planks"
+  }
+}

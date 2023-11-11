@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "britishcolumbiamod:block/cedar_planks",
+    "side": "britishcolumbiamod:block/cedar_planks",
+    "top": "britishcolumbiamod:block/cedar_planks"
+  }
+}
