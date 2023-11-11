@@ -1,15 +1,19 @@
 {
   "item.britishcolumbiamod.goose_egg": "Goose Egg",
   "item.britishcolumbiamod.goose_feather": "Goose Feather",
-  "item.britishcolumbiamod.rhodinite": "Rhodinite",
+  "item.britishcolumbiamod.rhodonite": "Rhodonite",
   "item.britishcolumbiamod.metal_detector": "Metal Detector",
   "item.britishcolumbiamod.saskatoon_berry": "Saskatoon Berry",
   "item.britishcolumbiamod.snowberry": "Snowberry",
+  "item.britishcolumbiamod.rhodonite_heart": "§5§nRhodonite Heart",
+
 
   "block.britishcolumbiamod.cedar_log": "Cedar Log",
   "block.britishcolumbiamod.cedar_planks": "Cedar Planks",
-  "block.britishcolumbiamod.rhodinite_ore": "Rhodinite Ore",
-  "block.britishcolumbiamod.rhodinite_block": "Block Of Rhodinite",
+  "block.britishcolumbiamod.rhodonite_ore": "Rhodonite Ore",
+  "block.britishcolumbiamod.rhodonite_block": "Block Of Rhodonite",
+
+  "tooltip.britishcolumbiamod.rhodonite_heart.tooltip": "§dA special stone to give the one you love most §6(Dev Item)",
 
   "creativetab.bcmod_tab": "BCMod"
 }

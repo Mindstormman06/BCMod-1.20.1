@@ -22,14 +22,15 @@ public class ModCreativeModTabs {
                         //Items
                         pOutput.accept(ModItems.GOOSE_EGG.get());
                         pOutput.accept(ModItems.GOOSE_FEATHER.get());
-                        pOutput.accept(ModItems.RHODINITE.get());
+                        pOutput.accept(ModItems.RHODONITE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.RHODONITE_HEART.get());
 
                         //Blocks
                         pOutput.accept(ModBlocks.CEDAR_LOG.get());
                         pOutput.accept(ModBlocks.CEDAR_PLANKS.get());
-                        pOutput.accept(ModBlocks.RHODINITE_ORE.get());
-                        pOutput.accept(ModBlocks.RHODINITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RHODONITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RHODONITE_ORE.get());
 
                         //Food
                         pOutput.accept(ModItems.SASKATOON_BERRY.get());

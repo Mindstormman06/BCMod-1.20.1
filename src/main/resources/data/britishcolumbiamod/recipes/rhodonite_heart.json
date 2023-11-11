@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
+    "# #",
     "###",
-    "###",
-    "###"
+    " # "
   ],
   "key": {
     "#": {
-      "item": "britishcolumbiamod:rhodinite"
+      "item": "britishcolumbiamod:rhodonite"
     }
   },
   "result": {
-    "item": "britishcolumbiamod:rhodinite_block"
+    "item": "britishcolumbiamod:rhodonite_heart"
   }
 }

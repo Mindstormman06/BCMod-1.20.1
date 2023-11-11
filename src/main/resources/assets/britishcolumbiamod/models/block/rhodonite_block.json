@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "britishcolumbiamod:block/rhodinite_ore"
+    "all": "britishcolumbiamod:block/rhodonite_block"
   }
 }

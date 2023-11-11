@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "britishcolumbiamod:rhodonite"
+    }
+  },
+  "result": {
+    "item": "britishcolumbiamod:rhodonite_block"
+  }
+}

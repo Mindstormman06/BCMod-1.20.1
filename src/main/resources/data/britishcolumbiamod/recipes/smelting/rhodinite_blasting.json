@@ -5,7 +5,7 @@
   "experience": 0.7,
   "group": "rhodinite",
   "ingredient": {
-    "item": "britishcolumbiamod:rhodinite_ore"
+    "item": "britishcolumbiamod:rhodonite_ore"
   },
-  "result": "britishcolumbiamod:rhodinite"
+  "result": "britishcolumbiamod:rhodonite"
 }

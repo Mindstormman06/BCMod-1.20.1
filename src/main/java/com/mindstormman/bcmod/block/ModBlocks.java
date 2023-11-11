@@ -25,9 +25,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CEDAR_PLANKS = registerBlock("cedar_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
-    public static final RegistryObject<Block> RHODINITE_ORE = registerBlock("rhodinite_ore",
+    public static final RegistryObject<Block> RHODONITE_ORE = registerBlock("rhodonite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE), UniformInt.of(3, 7)));
-    public static final RegistryObject<Block> RHODINITE_BLOCK = registerBlock("rhodinite_block",
+    public static final RegistryObject<Block> RHODONITE_BLOCK = registerBlock("rhodonite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
