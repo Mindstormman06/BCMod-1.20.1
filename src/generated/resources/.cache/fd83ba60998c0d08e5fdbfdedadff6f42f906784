@@ -1,9 +1,10 @@
-// 1.20.1	2023-11-11T14:01:06.7200252	Tags for minecraft:block mod id britishcolumbiamod
+// 1.20.1	2023-11-11T18:39:07.0773989	Tags for minecraft:block mod id britishcolumbiamod
+28465d49f1c78a2f4263215652d4774d90c657fe data/britishcolumbiamod/tags/blocks/cedar_logs.json
 f3b7b6114f81ece941861880e8df1894b3a8e45c data/forge/tags/blocks/ores.json
 ea570ebd0269b278f1880ade3c9c79d468dd2662 data/minecraft/tags/blocks/fence_gates.json
 fbb6b63c89f98a056733d66da055261966c873e7 data/minecraft/tags/blocks/logs.json
 28465d49f1c78a2f4263215652d4774d90c657fe data/minecraft/tags/blocks/logs_that_burn.json
-ee85117f0d2d8dc4a93bd8d7c186dd743134630d data/minecraft/tags/blocks/mineable/axe.json
+484c81857f0bcf965abf0161cf7d60589bda5c18 data/minecraft/tags/blocks/mineable/axe.json
 5c24b435dde1fb7070be3f9653f3cacdafc2e7b6 data/minecraft/tags/blocks/mineable/pickaxe.json
 e14ca8daebf3646b8a7f942d328f4132e1ddddc3 data/minecraft/tags/blocks/needs_iron_tool.json
 650c470bfd36b345c9d5f5caa6bd7504f3d3389b data/minecraft/tags/blocks/planks.json

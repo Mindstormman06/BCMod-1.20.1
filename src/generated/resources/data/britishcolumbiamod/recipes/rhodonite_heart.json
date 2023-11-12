@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "britishcolumbiamod:raw_rhodonite"
+    }
+  },
+  "pattern": [
+    "R R",
+    "RRR",
+    " R "
+  ],
+  "result": {
+    "item": "britishcolumbiamod:rhodonite_heart"
+  },
+  "show_notification": true
+}

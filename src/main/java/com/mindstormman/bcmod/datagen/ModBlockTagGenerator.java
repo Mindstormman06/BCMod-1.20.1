@@ -3,6 +3,7 @@ package com.mindstormman.bcmod.datagen;
 import com.mindstormman.bcmod.BCMod;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
+import com.mindstormman.bcmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -11,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -22,6 +24,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+
+        this.tag(ModTags.Blocks.CEDAR_LOGS)
+                .add(CedarWood.CEDAR_LOG.get(),
+                        CedarWood.CEDAR_WOOD.get(),
+                        CedarWood.STRIPPED_CEDAR_LOG.get(),
+                        CedarWood.STRIPPED_CEDAR_WOOD.get()
+
+                );
+
         this.tag(Tags.Blocks.ORES)
                 .add(ModBlocks.RHODONITE_ORE.get()
 
@@ -42,7 +53,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 );
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)
-                .add((Block) CedarWood.BLOCKS.getEntries());
+                .add(CedarWood.BLOCKS.getEntries().stream()
+                        .map(RegistryObject::get)
+                        .toArray(Block[]::new));
 
         this.tag(BlockTags.LOGS)
                 .add(CedarWood.CEDAR_LOG.get()

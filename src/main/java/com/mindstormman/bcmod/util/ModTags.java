@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.Block;
 public class ModTags {
 
     public static class Blocks {
-
+        public static final TagKey<Block> CEDAR_LOGS = tag("cedar_logs");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(BCMod.MOD_ID, name));

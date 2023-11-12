@@ -1,6 +1,17 @@
 {
   "values": [
+    "britishcolumbiamod:cedar_planks",
     "britishcolumbiamod:cedar_log",
-    "britishcolumbiamod:cedar_planks"
+    "britishcolumbiamod:stripped_cedar_log",
+    "britishcolumbiamod:cedar_wood",
+    "britishcolumbiamod:stripped_cedar_wood",
+    "britishcolumbiamod:cedar_stairs",
+    "britishcolumbiamod:cedar_slab",
+    "britishcolumbiamod:cedar_pressure_plate",
+    "britishcolumbiamod:cedar_button",
+    "britishcolumbiamod:cedar_fence",
+    "britishcolumbiamod:cedar_fence_gate",
+    "britishcolumbiamod:cedar_door",
+    "britishcolumbiamod:cedar_trapdoor"
   ]
 }
