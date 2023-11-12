@@ -58,7 +58,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         .toArray(Block[]::new));
 
         this.tag(BlockTags.LOGS)
-                .add(CedarWood.CEDAR_LOG.get()
+                .add(CedarWood.CEDAR_LOG.get(),
+                        CedarWood.CEDAR_WOOD.get(),
+                        CedarWood.STRIPPED_CEDAR_LOG.get(),
+                        CedarWood.STRIPPED_CEDAR_WOOD.get()
 
                 );
 

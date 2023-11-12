@@ -23,13 +23,21 @@ public class ModCreativeModeTabs {
                         //Items
                         pOutput.accept(ModItems.GOOSE_EGG.get());
                         pOutput.accept(ModItems.GOOSE_FEATHER.get());
-                        pOutput.accept(ModItems.RHODONITE.get());
-                        pOutput.accept(ModItems.METAL_DETECTOR.get());
-                        pOutput.accept(ModItems.RHODONITE_HEART.get());
 
-                        //Blocks
-                        pOutput.accept(ModBlocks.RHODONITE_BLOCK.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+
+
+                        //Rhodonite
+                        pOutput.accept(ModItems.RAW_RHODONITE.get());
+                        pOutput.accept(ModItems.RHODONITE.get());
+                        pOutput.accept(ModItems.RHODONITE_HEART.get());
                         pOutput.accept(ModBlocks.RHODONITE_ORE.get());
+                        pOutput.accept(ModBlocks.RAW_RHODONITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RHODONITE_BLOCK.get());
+
+
+
+
                         //Wood
 
                         //Cedar Wood
