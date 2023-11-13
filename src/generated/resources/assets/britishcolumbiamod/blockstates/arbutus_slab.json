@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "britishcolumbiamod:block/arbutus_slab"
+    },
+    "type=double": {
+      "model": "britishcolumbiamod:block/arbutus_planks"
+    },
+    "type=top": {
+      "model": "britishcolumbiamod:block/arbutus_slab_top"
+    }
+  }
+}

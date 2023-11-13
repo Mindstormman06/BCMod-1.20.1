@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "britishcolumbiamod:arbutus_planks"
+    }
+  },
+  "pattern": [
+    "## "
+  ],
+  "result": {
+    "item": "britishcolumbiamod:arbutus_pressure_plate"
+  },
+  "show_notification": true
+}

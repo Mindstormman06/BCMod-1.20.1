@@ -12,6 +12,10 @@ public class ModTags {
 
     public static class Blocks {
         public static final TagKey<Block> CEDAR_LOGS = tag("cedar_logs");
+        public static final TagKey<Block> YELLOW_CEDAR_LOGS = tag("yellow_cedar_logs");
+        public static final TagKey<Block> ARBUTUS_LOGS = tag("arbutus_logs");
+
+        public static final TagKey<Block> BC_LOGS = tag("bc_logs");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(BCMod.MOD_ID, name));

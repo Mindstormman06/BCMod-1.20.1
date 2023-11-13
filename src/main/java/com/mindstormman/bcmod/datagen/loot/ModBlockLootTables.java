@@ -1,5 +1,6 @@
 package com.mindstormman.bcmod.datagen.loot;
 
+import com.mindstormman.bcmod.block.ArbutusWood;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
@@ -70,6 +71,24 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(YellowCedarWood.YELLOW_CEDAR_DOOR.get(),
                 block -> createDoorTable(YellowCedarWood.YELLOW_CEDAR_DOOR.get()));
 
+        //Arbutus
+        this.dropSelf(ArbutusWood.ARBUTUS_LOG.get());
+        this.dropSelf(ArbutusWood.ARBUTUS_WOOD.get());
+        this.dropSelf(ArbutusWood.STRIPPED_ARBUTUS_LOG.get());
+        this.dropSelf(ArbutusWood.STRIPPED_ARBUTUS_WOOD.get());
+        this.dropSelf(ArbutusWood.ARBUTUS_PLANKS.get());
+        this.dropSelf(ArbutusWood.ARBUTUS_STAIRS.get());
+        this.dropSelf(ArbutusWood.ARBUTUS_BUTTON.get());
+        this.dropSelf(ArbutusWood.ARBUTUS_PRESSURE_PLATE.get());
+        this.dropSelf(ArbutusWood.ARBUTUS_FENCE.get());
+        this.dropSelf(ArbutusWood.ARBUTUS_FENCE_GATE.get());
+        this.dropSelf(ArbutusWood.ARBUTUS_TRAPDOOR.get());
+        this.add(ArbutusWood.ARBUTUS_SLAB.get(),
+                block -> createSlabItemTable(ArbutusWood.ARBUTUS_SLAB.get()));
+        this.add(ArbutusWood.ARBUTUS_DOOR.get(),
+                block -> createDoorTable(ArbutusWood.ARBUTUS_DOOR.get()));
+
+
     }
 
 
@@ -84,6 +103,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         // Add YellowCedarWood blocks to the list of known blocks
         for (RegistryObject<Block> block : YellowCedarWood.BLOCKS.getEntries()) {
+            knownBlocks.add(block.get());
+        }
+
+        // Add ArbutusWood blocks to the list of known blocks
+        for (RegistryObject<Block> block : ArbutusWood.BLOCKS.getEntries()) {
             knownBlocks.add(block.get());
         }
 

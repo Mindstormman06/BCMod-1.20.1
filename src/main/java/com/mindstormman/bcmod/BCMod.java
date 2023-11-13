@@ -1,5 +1,6 @@
 package com.mindstormman.bcmod;
 
+import com.mindstormman.bcmod.block.ArbutusWood;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
@@ -38,6 +39,7 @@ public class BCMod
         ModBlocks.register(modEventBus);
         CedarWood.register(modEventBus);
         YellowCedarWood.register(modEventBus);
+        ArbutusWood.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "britishcolumbiamod:block/arbutus_planks",
+    "side": "britishcolumbiamod:block/arbutus_planks",
+    "top": "britishcolumbiamod:block/arbutus_planks"
+  }
+}

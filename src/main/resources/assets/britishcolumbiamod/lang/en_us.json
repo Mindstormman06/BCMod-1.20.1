@@ -4,6 +4,10 @@
   "item.britishcolumbiamod.metal_detector": "Metal Detector",
   "item.britishcolumbiamod.saskatoon_berry": "Saskatoon Berry",
   "item.britishcolumbiamod.snowberry": "Snowberry",
+  "item.britishcolumbiamod.rhodonite": "Rhodonite",
+  "item.britishcolumbiamod.raw_rhodonite": "Raw Rhodonite",
+  "item.britishcolumbiamod.rhodonite_heart": "§5§nRhodonite Heart",
+  "tooltip.britishcolumbiamod.rhodonite_heart.tooltip": "§dA special stone to give the one you love most §6(Dev Item)",
 
 
 
@@ -21,14 +25,40 @@
   "block.britishcolumbiamod.cedar_door": "Western Red Cedar Door",
   "block.britishcolumbiamod.cedar_trapdoor": "Western Red Cedar Trapdoor",
 
+  "block.britishcolumbiamod.yellow_cedar_log": "Yellow Cedar Log",
+  "block.britishcolumbiamod.stripped_yellow_cedar_log": "Stripped Yellow Cedar Log",
+  "block.britishcolumbiamod.yellow_cedar_wood": "Yellow Cedar Wood",
+  "block.britishcolumbiamod.stripped_yellow_cedar_wood": "Stripped Yellow Cedar Wood",
+  "block.britishcolumbiamod.yellow_cedar_planks": "Yellow Cedar Planks",
+  "block.britishcolumbiamod.yellow_cedar_stairs": "Yellow Cedar Stairs",
+  "block.britishcolumbiamod.yellow_cedar_slab": "Yellow Cedar Slab",
+  "block.britishcolumbiamod.yellow_cedar_pressure_plate": "Yellow Cedar Pressure Plate",
+  "block.britishcolumbiamod.yellow_cedar_button": "Yellow Cedar Button",
+  "block.britishcolumbiamod.yellow_cedar_fence": "Yellow Cedar Fence",
+  "block.britishcolumbiamod.yellow_cedar_fence_gate": "Yellow Cedar Fence Gate",
+  "block.britishcolumbiamod.yellow_cedar_door": "Yellow Cedar Door",
+  "block.britishcolumbiamod.yellow_cedar_trapdoor": "Yellow Cedar Trapdoor",
+
+  "block.britishcolumbiamod.arbutus_log": "Arbutus Log",
+  "block.britishcolumbiamod.stripped_arbutus_log": "Stripped Arbutus Log",
+  "block.britishcolumbiamod.arbutus_wood": "Arbutus Wood",
+  "block.britishcolumbiamod.stripped_arbutus_wood": "Stripped Arbutus Wood",
+  "block.britishcolumbiamod.arbutus_planks": "Arbutus Planks",
+  "block.britishcolumbiamod.arbutus_stairs": "Arbutus Stairs",
+  "block.britishcolumbiamod.arbutus_slab": "Arbutus Slab",
+  "block.britishcolumbiamod.arbutus_pressure_plate": "Arbutus Pressure Plate",
+  "block.britishcolumbiamod.arbutus_button": "Arbutus Button",
+  "block.britishcolumbiamod.arbutus_fence": "Arbutus Fence",
+  "block.britishcolumbiamod.arbutus_fence_gate": "Arbutus Fence Gate",
+  "block.britishcolumbiamod.arbutus_door": "Arbutus Door",
+  "block.britishcolumbiamod.arbutus_trapdoor": "Arbutus Trapdoor",
 
   "block.britishcolumbiamod.rhodonite_ore": "Rhodonite Ore",
   "block.britishcolumbiamod.rhodonite_block": "Block Of Rhodonite",
   "block.britishcolumbiamod.raw_rhodonite_block": "Block Of Raw Rhodonite",
-  "item.britishcolumbiamod.rhodonite": "Rhodonite",
-  "item.britishcolumbiamod.raw_rhodonite": "Raw Rhodonite",
-  "item.britishcolumbiamod.rhodonite_heart": "§5§nRhodonite Heart",
-  "tooltip.britishcolumbiamod.rhodonite_heart.tooltip": "§dA special stone to give the one you love most §6(Dev Item)",
 
-  "creativetab.bcmod_tab": "BCMod"
+
+  "creativetab.bcmod_tab": "BCMod",
+  "creativetab.bcmod_building_blocks": "BC Building Blocks",
+  "creativetab.bcmod_natural_blocks": "BC Natural Blocks"
 }

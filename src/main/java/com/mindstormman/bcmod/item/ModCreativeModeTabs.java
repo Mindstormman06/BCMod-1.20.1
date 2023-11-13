@@ -1,6 +1,7 @@
 package com.mindstormman.bcmod.item;
 
 import com.mindstormman.bcmod.BCMod;
+import com.mindstormman.bcmod.block.ArbutusWood;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
@@ -32,12 +33,19 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_RHODONITE.get());
                         pOutput.accept(ModItems.RHODONITE.get());
                         pOutput.accept(ModItems.RHODONITE_HEART.get());
-                        pOutput.accept(ModBlocks.RHODONITE_ORE.get());
-                        pOutput.accept(ModBlocks.RAW_RHODONITE_BLOCK.get());
-                        pOutput.accept(ModBlocks.RHODONITE_BLOCK.get());
 
 
+                        //Food
+                        pOutput.accept(ModItems.SASKATOON_BERRY.get());
+                        pOutput.accept(ModItems.SNOWBERRY.get());
 
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> BCMOD_BUILDING_BLOCKS = CREATIVE_MODE_TABS.register("bcmod_building_blocks",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.RHODONITE_BLOCK.get()))
+                    .title(Component.translatable("creativetab.bcmod_building_blocks"))
+                    .displayItems((pParameters, pOutput) -> {
 
                         //Wood
 
@@ -73,11 +81,40 @@ public class ModCreativeModeTabs {
                         pOutput.accept(YellowCedarWood.YELLOW_CEDAR_PRESSURE_PLATE.get());
                         pOutput.accept(YellowCedarWood.YELLOW_CEDAR_BUTTON.get());
 
+                        //Arbutus
+                        pOutput.accept(ArbutusWood.ARBUTUS_LOG.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_WOOD.get());
+                        pOutput.accept(ArbutusWood.STRIPPED_ARBUTUS_LOG.get());
+                        pOutput.accept(ArbutusWood.STRIPPED_ARBUTUS_WOOD.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_PLANKS.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_STAIRS.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_SLAB.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_FENCE.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_FENCE_GATE.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_DOOR.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_TRAPDOOR.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_PRESSURE_PLATE.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_BUTTON.get());
+
+                        pOutput.accept(ModBlocks.RHODONITE_BLOCK.get());
 
 
-                        //Food
-                        pOutput.accept(ModItems.SASKATOON_BERRY.get());
-                        pOutput.accept(ModItems.SNOWBERRY.get());
+                    })
+                            .build());
+
+    public static final RegistryObject<CreativeModeTab> BCMOD_NATURAL_BLOCKS = CREATIVE_MODE_TABS.register("bcmod_natural_blocks",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(CedarWood.CEDAR_LOG.get()))
+                    .title(Component.translatable("creativetab.bcmod_natural_blocks"))
+                    .displayItems((pParameters, pOutput) -> {
+
+                        pOutput.accept(ModBlocks.RHODONITE_ORE.get());
+                        pOutput.accept(ModBlocks.RAW_RHODONITE_BLOCK.get());
+                        pOutput.accept(CedarWood.CEDAR_LOG.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_LOG.get());
+                        pOutput.accept(ArbutusWood.ARBUTUS_LOG.get());
+
+
+
 
                     })
                     .build());

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "britishcolumbiamod:block/arbutus_door_bottom",
+    "top": "britishcolumbiamod:block/arbutus_door_top"
+  }
+}

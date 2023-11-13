@@ -25,6 +25,19 @@
     "britishcolumbiamod:yellow_cedar_fence",
     "britishcolumbiamod:yellow_cedar_fence_gate",
     "britishcolumbiamod:yellow_cedar_door",
-    "britishcolumbiamod:yellow_cedar_trapdoor"
+    "britishcolumbiamod:yellow_cedar_trapdoor",
+    "britishcolumbiamod:arbutus_planks",
+    "britishcolumbiamod:arbutus_log",
+    "britishcolumbiamod:stripped_arbutus_log",
+    "britishcolumbiamod:arbutus_wood",
+    "britishcolumbiamod:stripped_arbutus_wood",
+    "britishcolumbiamod:arbutus_stairs",
+    "britishcolumbiamod:arbutus_slab",
+    "britishcolumbiamod:arbutus_pressure_plate",
+    "britishcolumbiamod:arbutus_button",
+    "britishcolumbiamod:arbutus_fence",
+    "britishcolumbiamod:arbutus_fence_gate",
+    "britishcolumbiamod:arbutus_door",
+    "britishcolumbiamod:arbutus_trapdoor"
   ]
 }

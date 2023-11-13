@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "britishcolumbiamod:arbutus_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "S#S",
+    "S#S"
+  ],
+  "result": {
+    "item": "britishcolumbiamod:arbutus_fence_gate"
+  },
+  "show_notification": true
+}

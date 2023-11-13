@@ -1,6 +1,7 @@
 package com.mindstormman.bcmod.datagen;
 
 import com.mindstormman.bcmod.BCMod;
+import com.mindstormman.bcmod.block.ArbutusWood;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
@@ -25,12 +26,15 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
         this.tag(ItemTags.PLANKS)
                 .add(Item.byBlock(CedarWood.CEDAR_PLANKS.get()))
-                .add(Item.byBlock(YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
+                .add(Item.byBlock(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()))
+                .add(Item.byBlock(ArbutusWood.ARBUTUS_PLANKS.get())
 
                 );
 
         this.tag(ItemTags.LOGS)
-                .add(Item.byBlock(CedarWood.CEDAR_LOG.get())
+                .add(Item.byBlock(CedarWood.CEDAR_LOG.get()))
+                .add(Item.byBlock(YellowCedarWood.YELLOW_CEDAR_LOG.get()))
+                .add(Item.byBlock(ArbutusWood.ARBUTUS_LOG.get())
 
 
                 );

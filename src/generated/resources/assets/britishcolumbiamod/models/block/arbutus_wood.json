@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "britishcolumbiamod:block/arbutus_log",
+    "side": "britishcolumbiamod:block/arbutus_log"
+  }
+}

@@ -1,6 +1,7 @@
 package com.mindstormman.bcmod.datagen;
 
 import com.mindstormman.bcmod.BCMod;
+import com.mindstormman.bcmod.block.ArbutusWood;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
@@ -51,6 +52,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(YellowCedarWood.YELLOW_CEDAR_SLAB);
         evenSimplerBlockItem(YellowCedarWood.YELLOW_CEDAR_PRESSURE_PLATE);
         evenSimplerBlockItem(YellowCedarWood.YELLOW_CEDAR_FENCE_GATE);
+
+        //Arbutus
+        simpleBlockItem(ArbutusWood.ARBUTUS_DOOR);
+        fenceItem(ArbutusWood.ARBUTUS_FENCE, ArbutusWood.ARBUTUS_PLANKS);
+        buttonItem(ArbutusWood.ARBUTUS_BUTTON, ArbutusWood.ARBUTUS_PLANKS);
+        trapdoorItem(ArbutusWood.ARBUTUS_TRAPDOOR);
+        evenSimplerBlockItem(ArbutusWood.ARBUTUS_STAIRS);
+        evenSimplerBlockItem(ArbutusWood.ARBUTUS_SLAB);
+        evenSimplerBlockItem(ArbutusWood.ARBUTUS_PRESSURE_PLATE);
+        evenSimplerBlockItem(ArbutusWood.ARBUTUS_FENCE_GATE);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
