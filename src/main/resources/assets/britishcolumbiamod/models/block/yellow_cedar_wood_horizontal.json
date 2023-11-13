@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "britishcolumbiamod:block/yellow_cedar_log",
+    "side": "britishcolumbiamod:block/yellow_cedar_log"
+  }
+}

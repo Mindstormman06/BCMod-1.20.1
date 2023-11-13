@@ -3,6 +3,7 @@ package com.mindstormman.bcmod.datagen;
 import com.mindstormman.bcmod.BCMod;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
+import com.mindstormman.bcmod.block.YellowCedarWood;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -23,12 +24,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
 
         this.tag(ItemTags.PLANKS)
-                .add(Item.byBlock(CedarWood.CEDAR_PLANKS.get())
+                .add(Item.byBlock(CedarWood.CEDAR_PLANKS.get()))
+                .add(Item.byBlock(YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
 
                 );
 
         this.tag(ItemTags.LOGS)
                 .add(Item.byBlock(CedarWood.CEDAR_LOG.get())
+
 
                 );
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "britishcolumbiamod:block/yellow_cedar_planks"
+  }
+}

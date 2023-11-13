@@ -3,6 +3,7 @@ package com.mindstormman.bcmod.datagen;
 import com.mindstormman.bcmod.BCMod;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
+import com.mindstormman.bcmod.block.YellowCedarWood;
 import com.mindstormman.bcmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -31,16 +32,25 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SASKATOON_BERRY);
         simpleItem(ModItems.SNOWBERRY);
 
+        //Cedar
         simpleBlockItem(CedarWood.CEDAR_DOOR);
         fenceItem(CedarWood.CEDAR_FENCE, CedarWood.CEDAR_PLANKS);
         buttonItem(CedarWood.CEDAR_BUTTON, CedarWood.CEDAR_PLANKS);
         trapdoorItem(CedarWood.CEDAR_TRAPDOOR);
-
         evenSimplerBlockItem(CedarWood.CEDAR_STAIRS);
         evenSimplerBlockItem(CedarWood.CEDAR_SLAB);
         evenSimplerBlockItem(CedarWood.CEDAR_PRESSURE_PLATE);
         evenSimplerBlockItem(CedarWood.CEDAR_FENCE_GATE);
 
+        //Yellow Cedar
+        simpleBlockItem(YellowCedarWood.YELLOW_CEDAR_DOOR);
+        fenceItem(YellowCedarWood.YELLOW_CEDAR_FENCE, YellowCedarWood.YELLOW_CEDAR_PLANKS);
+        buttonItem(YellowCedarWood.YELLOW_CEDAR_BUTTON, YellowCedarWood.YELLOW_CEDAR_PLANKS);
+        trapdoorItem(YellowCedarWood.YELLOW_CEDAR_TRAPDOOR);
+        evenSimplerBlockItem(YellowCedarWood.YELLOW_CEDAR_STAIRS);
+        evenSimplerBlockItem(YellowCedarWood.YELLOW_CEDAR_SLAB);
+        evenSimplerBlockItem(YellowCedarWood.YELLOW_CEDAR_PRESSURE_PLATE);
+        evenSimplerBlockItem(YellowCedarWood.YELLOW_CEDAR_FENCE_GATE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate_wall",
+  "textures": {
+    "texture": "britishcolumbiamod:block/yellow_cedar_planks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "britishcolumbiamod:yellow_cedar_planks"
+    }
+  ],
+  "result": {
+    "item": "britishcolumbiamod:yellow_cedar_button"
+  }
+}

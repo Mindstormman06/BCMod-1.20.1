@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "britishcolumbiamod:block/yellow_cedar_pressure_plate"
+    },
+    "powered=true": {
+      "model": "britishcolumbiamod:block/yellow_cedar_pressure_plate_down"
+    }
+  }
+}

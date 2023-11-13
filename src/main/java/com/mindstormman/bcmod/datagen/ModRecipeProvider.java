@@ -3,6 +3,7 @@ package com.mindstormman.bcmod.datagen;
 import com.mindstormman.bcmod.BCMod;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
+import com.mindstormman.bcmod.block.YellowCedarWood;
 import com.mindstormman.bcmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -62,6 +63,68 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
         //Wood
+
+        //Yellow Cedar
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, YellowCedarWood.YELLOW_CEDAR_PLANKS.get(), 9)
+                .requires(YellowCedarWood.YELLOW_CEDAR_LOG.get())
+                .unlockedBy(getHasName(YellowCedarWood.YELLOW_CEDAR_LOG.get()), has(YellowCedarWood.YELLOW_CEDAR_LOG.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, YellowCedarWood.YELLOW_CEDAR_STAIRS.get(), 4)
+                .pattern("#  ")
+                .pattern("## ")
+                .pattern("###")
+                .define('#', YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()), has(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, YellowCedarWood.YELLOW_CEDAR_SLAB.get(), 3)
+                .pattern("###")
+                .define('#', YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()), has(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, YellowCedarWood.YELLOW_CEDAR_BUTTON.get())
+                .requires(YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()), has(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, YellowCedarWood.YELLOW_CEDAR_PRESSURE_PLATE.get())
+                .pattern("## ")
+                .define('#', YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()), has(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, YellowCedarWood.YELLOW_CEDAR_FENCE.get(), 3)
+                .pattern("#S#")
+                .pattern("#S#")
+                .define('#', YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()), has(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, YellowCedarWood.YELLOW_CEDAR_FENCE_GATE.get())
+                .pattern("S#S")
+                .pattern("S#S")
+                .define('#', YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()), has(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, YellowCedarWood.YELLOW_CEDAR_DOOR.get(), 3)
+                .pattern("## ")
+                .pattern("## ")
+                .pattern("## ")
+                .define('#', YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()), has(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, YellowCedarWood.YELLOW_CEDAR_TRAPDOOR.get(), 3)
+                .pattern("###")
+                .pattern("###")
+                .define('#', YellowCedarWood.YELLOW_CEDAR_PLANKS.get())
+                .unlockedBy(getHasName(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()), has(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()))
+                .save(pWriter);
 
         //Cedar
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, CedarWood.CEDAR_PLANKS.get(), 9)

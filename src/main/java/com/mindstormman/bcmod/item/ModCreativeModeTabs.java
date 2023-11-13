@@ -3,6 +3,7 @@ package com.mindstormman.bcmod.item;
 import com.mindstormman.bcmod.BCMod;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
+import com.mindstormman.bcmod.block.YellowCedarWood;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -42,15 +43,36 @@ public class ModCreativeModeTabs {
 
                         //Cedar Wood
                         pOutput.accept(CedarWood.CEDAR_LOG.get());
+                        pOutput.accept(CedarWood.CEDAR_WOOD.get());
+                        pOutput.accept(CedarWood.STRIPPED_CEDAR_LOG.get());
+                        pOutput.accept(CedarWood.STRIPPED_CEDAR_WOOD.get());
                         pOutput.accept(CedarWood.CEDAR_PLANKS.get());
-                        pOutput.accept(CedarWood.CEDAR_SLAB.get());
                         pOutput.accept(CedarWood.CEDAR_STAIRS.get());
-                        pOutput.accept(CedarWood.CEDAR_BUTTON.get());
-                        pOutput.accept(CedarWood.CEDAR_PRESSURE_PLATE.get());
+                        pOutput.accept(CedarWood.CEDAR_SLAB.get());
                         pOutput.accept(CedarWood.CEDAR_FENCE.get());
                         pOutput.accept(CedarWood.CEDAR_FENCE_GATE.get());
                         pOutput.accept(CedarWood.CEDAR_DOOR.get());
                         pOutput.accept(CedarWood.CEDAR_TRAPDOOR.get());
+                        pOutput.accept(CedarWood.CEDAR_PRESSURE_PLATE.get());
+                        pOutput.accept(CedarWood.CEDAR_BUTTON.get());
+
+
+
+                        //Yellow Cedar Wood
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_LOG.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_WOOD.get());
+                        pOutput.accept(YellowCedarWood.STRIPPED_YELLOW_CEDAR_LOG.get());
+                        pOutput.accept(YellowCedarWood.STRIPPED_YELLOW_CEDAR_WOOD.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_PLANKS.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_STAIRS.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_SLAB.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_FENCE.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_FENCE_GATE.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_DOOR.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_TRAPDOOR.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_PRESSURE_PLATE.get());
+                        pOutput.accept(YellowCedarWood.YELLOW_CEDAR_BUTTON.get());
+
 
 
                         //Food

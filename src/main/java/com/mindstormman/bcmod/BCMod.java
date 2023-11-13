@@ -2,6 +2,7 @@ package com.mindstormman.bcmod;
 
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
+import com.mindstormman.bcmod.block.YellowCedarWood;
 import com.mindstormman.bcmod.item.ModCreativeModeTabs;
 import com.mindstormman.bcmod.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -36,6 +37,7 @@ public class BCMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         CedarWood.register(modEventBus);
+        YellowCedarWood.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

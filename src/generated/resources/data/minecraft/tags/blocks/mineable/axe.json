@@ -12,6 +12,19 @@
     "britishcolumbiamod:cedar_fence",
     "britishcolumbiamod:cedar_fence_gate",
     "britishcolumbiamod:cedar_door",
-    "britishcolumbiamod:cedar_trapdoor"
+    "britishcolumbiamod:cedar_trapdoor",
+    "britishcolumbiamod:yellow_cedar_planks",
+    "britishcolumbiamod:yellow_cedar_log",
+    "britishcolumbiamod:stripped_yellow_cedar_log",
+    "britishcolumbiamod:yellow_cedar_wood",
+    "britishcolumbiamod:stripped_yellow_cedar_wood",
+    "britishcolumbiamod:yellow_cedar_stairs",
+    "britishcolumbiamod:yellow_cedar_slab",
+    "britishcolumbiamod:yellow_cedar_pressure_plate",
+    "britishcolumbiamod:yellow_cedar_button",
+    "britishcolumbiamod:yellow_cedar_fence",
+    "britishcolumbiamod:yellow_cedar_fence_gate",
+    "britishcolumbiamod:yellow_cedar_door",
+    "britishcolumbiamod:yellow_cedar_trapdoor"
   ]
 }

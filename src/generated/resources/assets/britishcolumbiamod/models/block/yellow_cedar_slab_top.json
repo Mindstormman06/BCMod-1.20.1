@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "britishcolumbiamod:block/yellow_cedar_planks",
+    "side": "britishcolumbiamod:block/yellow_cedar_planks",
+    "top": "britishcolumbiamod:block/yellow_cedar_planks"
+  }
+}

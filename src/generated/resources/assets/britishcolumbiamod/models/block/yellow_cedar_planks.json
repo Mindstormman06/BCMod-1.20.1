@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "britishcolumbiamod:block/yellow_cedar_planks"
+  }
+}
