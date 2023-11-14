@@ -8,6 +8,7 @@
   "item.britishcolumbiamod.raw_rhodonite": "Raw Rhodonite",
   "item.britishcolumbiamod.rhodonite_heart": "§5§nRhodonite Heart",
   "tooltip.britishcolumbiamod.rhodonite_heart.tooltip": "§dA special stone to give the one you love most §6(Dev Item)",
+  "item.britishcolumbiamod.snowberry_seeds": "Snowberry Seeds",
 
 
 
@@ -56,6 +57,8 @@
   "block.britishcolumbiamod.rhodonite_ore": "Rhodonite Ore",
   "block.britishcolumbiamod.rhodonite_block": "Block Of Rhodonite",
   "block.britishcolumbiamod.raw_rhodonite_block": "Block Of Raw Rhodonite",
+
+  "block.britishcolumbiamod.saskatoon_berry_bush": "Saskatoon Bush",
 
 
   "creativetab.bcmod_tab": "BCMod",

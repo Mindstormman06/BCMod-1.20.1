@@ -1,0 +1,7 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "britishcolumbiamod:block/saskatoon_berry_bush_stage3"
+  }
+}

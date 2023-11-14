@@ -1,14 +1,16 @@
 package com.mindstormman.bcmod;
 
-import com.mindstormman.bcmod.block.ArbutusWood;
-import com.mindstormman.bcmod.block.CedarWood;
-import com.mindstormman.bcmod.block.ModBlocks;
-import com.mindstormman.bcmod.block.YellowCedarWood;
+import com.mindstormman.bcmod.block.*;
+import com.mindstormman.bcmod.block.custom.SaskatoonBerryBushBlock;
 import com.mindstormman.bcmod.item.ModCreativeModeTabs;
 import com.mindstormman.bcmod.item.ModItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.model.renderable.ITextureRenderTypeLookup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -37,19 +39,23 @@ public class BCMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        NoLootTableBlocks.register(modEventBus);
         CedarWood.register(modEventBus);
         YellowCedarWood.register(modEventBus);
         ArbutusWood.register(modEventBus);
 
-        modEventBus.addListener(this::commonSetup);
 
+
+        modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-    }
+        event.enqueueWork(() -> {
+            RenderType.cutout();
+    });}
 
 
 
@@ -73,6 +79,7 @@ public class BCMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+
         }
     }
 }

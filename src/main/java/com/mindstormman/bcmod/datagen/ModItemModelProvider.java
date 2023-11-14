@@ -5,6 +5,7 @@ import com.mindstormman.bcmod.block.ArbutusWood;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
+import com.mindstormman.bcmod.block.custom.SaskatoonBerryBushBlock;
 import com.mindstormman.bcmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;

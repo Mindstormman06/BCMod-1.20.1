@@ -5,10 +5,12 @@ import com.mindstormman.bcmod.block.ArbutusWood;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
+import com.mindstormman.bcmod.block.custom.SaskatoonBerryBushBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -19,7 +21,7 @@ public class ModCreativeModeTabs {
 
 
     public static final RegistryObject<CreativeModeTab> BCMOD_TAB = CREATIVE_MODE_TABS.register("bcmod_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOOSE_EGG.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOOSE_FEATHER.get()))
                     .title(Component.translatable("creativetab.bcmod_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         //Items
@@ -38,6 +40,7 @@ public class ModCreativeModeTabs {
                         //Food
                         pOutput.accept(ModItems.SASKATOON_BERRY.get());
                         pOutput.accept(ModItems.SNOWBERRY.get());
+
 
                     })
                     .build());

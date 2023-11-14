@@ -5,12 +5,15 @@ import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
 import com.mindstormman.bcmod.item.ModItems;
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -87,6 +90,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ArbutusWood.ARBUTUS_SLAB.get()));
         this.add(ArbutusWood.ARBUTUS_DOOR.get(),
                 block -> createDoorTable(ArbutusWood.ARBUTUS_DOOR.get()));
+
+
+
 
 
     }
