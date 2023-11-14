@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-13T15:34:24.9754227	Item Models: britishcolumbiamod
+// 1.20.1	2023-11-13T20:30:53.3572376	Item Models: britishcolumbiamod
 4d0173f535d6cdc6fcfbc9f73c020a39ce25576f assets/britishcolumbiamod/models/item/arbutus_button.json
 5144c67e8024f470e0e6e03e18f0edab7d6acfef assets/britishcolumbiamod/models/item/arbutus_door.json
 641859ba15f6318d44e2384b82a04b31e4972cbe assets/britishcolumbiamod/models/item/arbutus_fence.json
@@ -17,6 +17,7 @@ ab6cbb470861f219023747a38418d92fd0c75180 assets/britishcolumbiamod/models/item/c
 2742ae9e1acb086ef3c9c0d395642b7b332e6299 assets/britishcolumbiamod/models/item/cedar_trapdoor.json
 48ea3c4b1787bbc271eb87b6ff0e8153b4540846 assets/britishcolumbiamod/models/item/goose_egg.json
 393a73a6d283c59b39ff5847b43a9f3e516f34ae assets/britishcolumbiamod/models/item/goose_feather.json
+7790195939664d5c8597c2307de2792653e4dddf assets/britishcolumbiamod/models/item/jade.json
 fe09797d43c218147372bd0490e32b8cbf4738e3 assets/britishcolumbiamod/models/item/metal_detector.json
 c9bf634831c2119492d0396a647b477d8dea0e8c assets/britishcolumbiamod/models/item/raw_rhodonite.json
 3b831f6fc62dcacab57a08c6c0865402459d9dc9 assets/britishcolumbiamod/models/item/rhodonite.json

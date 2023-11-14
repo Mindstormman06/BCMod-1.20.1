@@ -54,6 +54,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_RHODONITE_BLOCK= registerBlock("raw_rhodonite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_GOLD_BLOCK)));
 
+    //Jade
+    public static final RegistryObject<Block> JADE_ORE = registerBlock("jade_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_ORE), UniformInt.of(3, 7)));
+    public static final RegistryObject<Block> JADE_BLOCK = registerBlock("jade_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)));
+
 
 
 

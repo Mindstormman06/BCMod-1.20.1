@@ -34,6 +34,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RHODONITE_BLOCK);
         blockWithItem(ModBlocks.RHODONITE_ORE);
         blockWithItem(ModBlocks.RAW_RHODONITE_BLOCK);
+        blockWithItem(ModBlocks.JADE_BLOCK);
+        blockWithItem(ModBlocks.JADE_ORE);
 
         //Cedar
         blockItem(CedarWood.CEDAR_LOG);

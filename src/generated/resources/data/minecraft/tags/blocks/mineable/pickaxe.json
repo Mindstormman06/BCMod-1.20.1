@@ -2,6 +2,8 @@
   "values": [
     "britishcolumbiamod:rhodonite_block",
     "britishcolumbiamod:rhodonite_ore",
-    "britishcolumbiamod:raw_rhodonite_block"
+    "britishcolumbiamod:raw_rhodonite_block",
+    "britishcolumbiamod:jade_ore",
+    "britishcolumbiamod:jade_block"
   ]
 }

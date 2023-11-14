@@ -31,6 +31,9 @@ public class ModItems {
     public static final RegistryObject<Item> RHODONITE = ITEMS.register("rhodonite",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> JADE = ITEMS.register("jade",
+            () -> new Item(new Item.Properties()));
+
 
 
 

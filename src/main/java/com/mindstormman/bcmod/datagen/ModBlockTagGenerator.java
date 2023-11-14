@@ -41,7 +41,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.RHODONITE_BLOCK.get(),
                         ModBlocks.RHODONITE_ORE.get(),
-                        ModBlocks.RAW_RHODONITE_BLOCK.get()
+                        ModBlocks.RAW_RHODONITE_BLOCK.get(),
+                        ModBlocks.JADE_ORE.get(),
+                        ModBlocks.JADE_BLOCK.get()
 
                 );
 
@@ -59,9 +61,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
                 );
         this.tag(Tags.Blocks.ORES)
-                .add(ModBlocks.RHODONITE_ORE.get()
+                .add(ModBlocks.RHODONITE_ORE.get(),
+                        ModBlocks.JADE_ORE.get()
 
-                );
+
+
+
+        );
 
         this.tag(ModTags.Blocks.BC_LOGS)
                 .add(CedarWood.CEDAR_LOG.get(),

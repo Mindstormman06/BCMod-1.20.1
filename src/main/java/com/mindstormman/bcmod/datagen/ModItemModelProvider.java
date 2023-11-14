@@ -33,6 +33,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_RHODONITE);
         simpleItem(ModItems.SASKATOON_BERRY);
         simpleItem(ModItems.SNOWBERRY);
+        simpleItem(ModItems.JADE);
 
         //Cedar
         simpleBlockItem(CedarWood.CEDAR_DOOR);

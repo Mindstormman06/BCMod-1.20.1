@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-13T15:34:24.9729216	Loot Tables
+// 1.20.1	2023-11-13T20:30:53.3552223	Loot Tables
 2996665b16661c0f3a7315341bfeb511e58f7fa8 data/britishcolumbiamod/loot_tables/blocks/arbutus_button.json
 73a800a0dba77626714cf1590d026dbeced25a9b data/britishcolumbiamod/loot_tables/blocks/arbutus_door.json
 24e3172f0946a40a7e5c04a7ab15af98bd502e2a data/britishcolumbiamod/loot_tables/blocks/arbutus_fence.json
@@ -21,6 +21,8 @@ ec2eea752bc2a43a9523d5601449465579ff2675 data/britishcolumbiamod/loot_tables/blo
 76824707f0ef6492db836fe58a9952e6b467366f data/britishcolumbiamod/loot_tables/blocks/cedar_stairs.json
 a5923e30835591e95caa76d72b9f1ce8b37862eb data/britishcolumbiamod/loot_tables/blocks/cedar_trapdoor.json
 c3e9ece75b536d1465c8a9bb23eb8bd20f82558a data/britishcolumbiamod/loot_tables/blocks/cedar_wood.json
+f0638b3b154fd4ca944a6782760a235ddb120605 data/britishcolumbiamod/loot_tables/blocks/jade_block.json
+e55cf9c2db8a42fb3a9adb5cf0f69bde0ef34170 data/britishcolumbiamod/loot_tables/blocks/jade_ore.json
 bf57486d3ffe724a462aae57e3706b9da79724de data/britishcolumbiamod/loot_tables/blocks/raw_rhodonite_block.json
 6864243f8a9feaceeade853ad47b687351ca6b20 data/britishcolumbiamod/loot_tables/blocks/rhodonite_block.json
 9541ac3df8ce0a97794de68d0d73fcfaba3b4fff data/britishcolumbiamod/loot_tables/blocks/rhodonite_ore.json

@@ -37,6 +37,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.RHODONITE_ORE.get(), block -> createOreDrop(ModBlocks.RHODONITE_ORE.get(), ModItems.RHODONITE.get()));
         this.dropSelf(ModBlocks.RHODONITE_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_RHODONITE_BLOCK.get());
+        this.add(ModBlocks.JADE_ORE.get(), block -> createOreDrop(ModBlocks.JADE_ORE.get(), ModItems.JADE.get()));
+        this.dropSelf(ModBlocks.JADE_BLOCK.get());
 
         //WOOD
 

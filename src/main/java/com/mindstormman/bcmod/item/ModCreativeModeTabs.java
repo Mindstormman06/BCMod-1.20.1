@@ -35,6 +35,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_RHODONITE.get());
                         pOutput.accept(ModItems.RHODONITE.get());
                         pOutput.accept(ModItems.RHODONITE_HEART.get());
+                        pOutput.accept(ModItems.JADE.get());
+
 
 
                         //Food
@@ -100,6 +102,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ArbutusWood.ARBUTUS_BUTTON.get());
 
                         pOutput.accept(ModBlocks.RHODONITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.JADE_BLOCK.get());
 
 
                     })
@@ -111,6 +114,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModBlocks.RHODONITE_ORE.get());
+                        pOutput.accept(ModBlocks.JADE_ORE.get());
                         pOutput.accept(ModBlocks.RAW_RHODONITE_BLOCK.get());
                         pOutput.accept(CedarWood.CEDAR_LOG.get());
                         pOutput.accept(YellowCedarWood.YELLOW_CEDAR_LOG.get());
