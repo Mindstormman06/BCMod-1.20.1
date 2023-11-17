@@ -82,8 +82,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         pressurePlateBlock(((PressurePlateBlock) YellowCedarWood.YELLOW_CEDAR_PRESSURE_PLATE.get()), blockTexture(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()));
         fenceBlock(((FenceBlock) YellowCedarWood.YELLOW_CEDAR_FENCE.get()), blockTexture(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()));
         fenceGateBlock(((FenceGateBlock) YellowCedarWood.YELLOW_CEDAR_FENCE_GATE.get()), blockTexture(YellowCedarWood.YELLOW_CEDAR_PLANKS.get()));
-        doorBlockWithRenderType(((DoorBlock) YellowCedarWood.YELLOW_CEDAR_DOOR.get()), modLoc("block/cedar_door_bottom"), modLoc("block/cedar_door_top"), "cutout");
-        trapdoorBlockWithRenderType(((TrapDoorBlock) YellowCedarWood.YELLOW_CEDAR_TRAPDOOR.get()), modLoc("block/cedar_trapdoor"), true, "cutout");
+        doorBlockWithRenderType(((DoorBlock) YellowCedarWood.YELLOW_CEDAR_DOOR.get()), modLoc("block/yellow_cedar_door_bottom"), modLoc("block/yellow_cedar_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) YellowCedarWood.YELLOW_CEDAR_TRAPDOOR.get()), modLoc("block/yellow_cedar_trapdoor"), true, "cutout");
 
 
         //Arbutus

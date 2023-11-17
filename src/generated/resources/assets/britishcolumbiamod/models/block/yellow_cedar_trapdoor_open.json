@@ -2,6 +2,6 @@
   "parent": "minecraft:block/template_orientable_trapdoor_open",
   "render_type": "minecraft:cutout",
   "textures": {
-    "texture": "britishcolumbiamod:block/cedar_trapdoor"
+    "texture": "britishcolumbiamod:block/yellow_cedar_trapdoor"
   }
 }
