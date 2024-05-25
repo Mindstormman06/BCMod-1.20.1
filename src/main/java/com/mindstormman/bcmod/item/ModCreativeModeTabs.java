@@ -5,12 +5,10 @@ import com.mindstormman.bcmod.block.ArbutusWood;
 import com.mindstormman.bcmod.block.CedarWood;
 import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
-import com.mindstormman.bcmod.block.custom.SaskatoonBerryBushBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -29,6 +27,19 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.GOOSE_FEATHER.get());
 
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+
+                        //Tools
+                        pOutput.accept(ModItems.JADE_SWORD.get());
+                        pOutput.accept(ModItems.JADE_PICKAXE.get());
+                        pOutput.accept(ModItems.JADE_AXE.get());
+                        pOutput.accept(ModItems.JADE_SHOVEL.get());
+                        pOutput.accept(ModItems.JADE_HOE.get());
+
+                        //Armour
+                        pOutput.accept(ModItems.JADE_HELMET.get());
+                        pOutput.accept(ModItems.JADE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.JADE_LEGGINGS.get());
+                        pOutput.accept(ModItems.JADE_BOOTS.get());
 
 
                         //Rhodonite

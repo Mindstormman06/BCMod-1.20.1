@@ -11,7 +11,15 @@
   "item.britishcolumbiamod.rhodonite_heart": "§5§nRhodonite Heart",
   "tooltip.britishcolumbiamod.rhodonite_heart.tooltip": "§dA special stone to give the one you love most §6(Dev Item)",
   "item.britishcolumbiamod.snowberry_seeds": "Snowberry Seeds",
-
+  "item.britishcolumbiamod.jade_sword": "Jade Sword",
+  "item.britishcolumbiamod.jade_pickaxe": "Jade Pickaxe",
+  "item.britishcolumbiamod.jade_axe": "Jade Axe",
+  "item.britishcolumbiamod.jade_shovel": "Jade Shovel",
+  "item.britishcolumbiamod.jade_hoe": "Jade Hoe",
+  "item.britishcolumbiamod.jade_helmet": "Jade Helmet",
+  "item.britishcolumbiamod.jade_chestplate": "Jade Chestplate",
+  "item.britishcolumbiamod.jade_leggings": "Jade Leggings",
+  "item.britishcolumbiamod.jade_boots": "Jade Boots",
 
 
   "block.britishcolumbiamod.cedar_log": "Western Red Cedar Log",

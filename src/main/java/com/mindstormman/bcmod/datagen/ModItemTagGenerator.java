@@ -3,8 +3,8 @@ package com.mindstormman.bcmod.datagen;
 import com.mindstormman.bcmod.BCMod;
 import com.mindstormman.bcmod.block.ArbutusWood;
 import com.mindstormman.bcmod.block.CedarWood;
-import com.mindstormman.bcmod.block.ModBlocks;
 import com.mindstormman.bcmod.block.YellowCedarWood;
+import com.mindstormman.bcmod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -38,6 +38,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
 
                 );
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.JADE_HELMET.get(),
+                ModItems.JADE_CHESTPLATE.get(),
+                ModItems.JADE_LEGGINGS.get(),
+                ModItems.JADE_BOOTS.get()
+                        );
 
     }
 }
